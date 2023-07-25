@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: Arial, sans-serif; */
+  background-color: rgb(244, 226, 193);
+  color: #333;
+}
+
+header {
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(106, 96, 96);
+  color: white;
+}
+
+table {
+  width: 80%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+table th, table td {
+  padding: 12px;
+  border: 1px solid black;
+  text-align: left;
+}
+
+table th {
+  background-color: rgb(106, 96, 96);
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+footer {
+  background-color: rgb(106, 96, 96);
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.email, .contact {
+  padding: 5px; /* Added some padding for better spacing in the footer */
+}
+.email{
+  color: black;
+  background: grey;
+}
+.contact{
+  color: black;
+  background-color: grey;
+}

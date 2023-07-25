@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+header {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(103, 95, 95);
+    color: white;
+  }
+body {
+    /* font-family: Arial, sans-serif; */
+    text-align: center;
+}
+
+.frame {
+    display: inline-block;
+    width: 30%;
+    border: 2px solid #333;
+    margin: 10px;
+    padding: 10px;
+    /* padding-left: 20px; */
+}
+
+.frame h2 {
+    margin-top: 0;
+}
+
